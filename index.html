@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINHANH</title>
+
+    <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="onverlay" data-overlay> </div>
+    <!-- MODAL -->
+    <div class="modal" data-modal>
+        <div class="modal-close-overlay" data-modal-overlay>
+        </div>
+        <div class="modal-content">
+            <!-- button close -->
+            <button class="modal-close-btn" data-modal-close>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="newsletter-img">
+                <img src="./assets/images/newsletter.webp" alt="" width="400" height="400">
+            </div>
+            <div class="newletter">
+                <form action="#">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">
+                            Đăng kí nhận thông tin mới.
+                        </h3>
+                        <p class="newsletter-desc">
+                            Đăng kí shop <b>LINHANH</b> để cập nhật các sản phẩm cũng như mã giảm giá mới nhất.
+                        </p>
+                        <input type="email" name="email" class="email-field" placeholder="Địa chỉ email" required>
+                        <button type="submit" class="btn-newsletter">Đăng kí ngay</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
